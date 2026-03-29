@@ -1,16 +1,9 @@
-# This tells the judges what my environment is called
-name: "ExpenseReportingEnv"
-version: "1.0.0"
-description: "An environment where an agent matches receipts to spreadsheet rows."
-
-# These are the 3 levels of my game
-tasks:
-  - id: "task-1-easy"
-    name: "Read one receipt"
-    difficulty: "easy"
-  - id: "task-2-medium"
-    name: "Match three receipts"
-    difficulty: "medium"
-  - id: "task-3-hard"
-    name: "Find the fake receipt"
-    difficulty: "hard"
+version: "1.0"
+metadata:
+  name: "expense-reporting-agent"
+  description: "Real-world expense auditing environment"
+  tags:
+    - "openenv"
+repo_url: "https://github.com/vinodha-l/Expense-reporting-agent"
+entrypoint: "python inference.py"
+port: 7860
