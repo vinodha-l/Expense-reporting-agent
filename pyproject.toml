@@ -5,7 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "expense-reporting-agent"
 version = "0.1.0"
-description = "Real-world expense auditing environment"
+description = "Expense auditing environment"
 dependencies = [
-    "pydantic",
+    "openenv-core>=0.2.0",
 ]
+
+[project.scripts]
+server = "inference:main"
