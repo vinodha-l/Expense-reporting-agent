@@ -1,6 +1,6 @@
-version: "1.0"
-name: "expense-reporting-agent"
-description: "Real-world expense auditing environment"
-repo_url: "https://github.com/vinodha-l/Expense-reporting-agent"
-entrypoint: "python inference.py"
+version: 1.0
+name: expense-reporting-agent
+description: Real-world expense auditing environment
+repo_url: https://github.com/vinodha-l/Expense-reporting-agent
+entrypoint: python inference.py
 port: 7860
